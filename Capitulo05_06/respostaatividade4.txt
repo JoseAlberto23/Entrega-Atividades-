@@ -1,0 +1,20 @@
+Qual a diferença entre um array e um registro/objeto
+Arrays: coleção de dados do mesmo tipo, útil para operações iterativas e processamento em lote.
+Structs/Objetos: coleção de dados diferentes, útil para modelar entidades do mundo real.
+
+Quando seria mais adequado usar array e quando usar struct/classe?
+Array:
+
+Quando você precisa armazenar muitos elementos do mesmo tipo.
+
+Quando pretende iterar, ordenar ou processar os elementos em sequência.
+
+Exemplo: notas de 30 alunos, temperaturas diárias, IDs de produtos.
+
+Struct/Classe:
+
+Quando quer agrupar informações diferentes que representam uma entidade completa.
+
+Quando precisa de nomes de campos claros para cada dado.
+
+Exemplo: livro (título, autor, ano), aluno (nome, matrícula, média), carro (modelo, placa, ano).

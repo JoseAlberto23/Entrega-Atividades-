@@ -1,0 +1,5 @@
+Por que a sempre reinicia do zero, mas b acumula valor entre chamadas?
+a é automática (vida curta, reiniciada a cada chamada). b é estática (vida longa, mantém valor entre chamadas).
+
+Como isso se relaciona com tempo de vida da variável?
+O tempo de vida define por quanto tempo a variável existe na memória. Variáveis automáticas vivem apenas durante a execução da função, variáveis estáticas vivem durante toda a execução do programa.
